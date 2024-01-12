@@ -6,3 +6,4 @@ Tasks and questions explored here:
 - Daemon threads and race conditions
 - Method synchronization and monitors 
 - Atomic data types and volatile
+- CountDownLatch and ExecutorService

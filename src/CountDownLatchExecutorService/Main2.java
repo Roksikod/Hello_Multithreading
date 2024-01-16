@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
 public class Main2 {
     public static void main(String[] args) {
         CountDownLatch countDownLatch = new CountDownLatch(3);
-        ExecutorService executorService = Executors.newFixedThreadPool(3); //Executors.newSingleThreadExecutor();
+        ExecutorService executorService = Executors.newFixedThreadPool(3); //Executors.newSingleThreadExecutor(); - один поток, по мере освобождения берется следующая задча
         Runnable task1 = new Runnable() {
             @Override
             public void run() {
@@ -57,7 +57,7 @@ public class Main2 {
         executorService.execute(task1);
         executorService.execute(task2);
         executorService.execute(task3);
-        executorService.shutdown();
+        executorService.shutdown(); //потоков больше не ждет, поэтому прекращает свою работу
         try {
             countDownLatch.await();
         } catch (InterruptedException e) {

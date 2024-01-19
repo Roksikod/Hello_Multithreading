@@ -9,3 +9,5 @@ Tasks and questions explored here:
 - CountDownLatch and ExecutorService
 - ThreadFactory, Callable and Future
 - BlockingQueue, Wait, notify и notifyAll
+- DeadLock
+- Thread-safe collections

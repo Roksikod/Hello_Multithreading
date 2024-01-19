@@ -1,4 +1,4 @@
-package CountDownLatchExecutorService;
+package countDownLatchExecutorService;
 
 import java.util.ArrayList;
 import java.util.List;

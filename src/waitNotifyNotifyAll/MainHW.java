@@ -1,7 +1,4 @@
-package WaitNotifyNotifyAll;
-
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.LinkedBlockingQueue;
+package waitNotifyNotifyAll;
 
 /*
 Создать три потока. Каждый выводит 5 раз букву А -1й, В-2й и С - 3й.

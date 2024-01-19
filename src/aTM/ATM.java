@@ -1,4 +1,4 @@
-package ATM;
+package aTM;
 //synchronized or join()
 public class ATM {
     private int amount;

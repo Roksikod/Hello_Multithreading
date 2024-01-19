@@ -1,4 +1,4 @@
-package WaitNotifyNotifyAll;
+package waitNotifyNotifyAll;
 
 import java.util.LinkedList;
 import java.util.Queue;

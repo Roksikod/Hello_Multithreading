@@ -8,3 +8,4 @@ Tasks and questions explored here:
 - Atomic data types and volatile
 - CountDownLatch and ExecutorService
 - ThreadFactory, Callable and Future
+- BlockingQueue, Wait, notify и notifyAll

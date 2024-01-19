@@ -1,4 +1,4 @@
-package DaemonThreadsAndRaceConditions;
+package daemonThreadsAndRaceConditions;
 //в состоянии гонки потоки могут одновременно обращаться к переменной и пытаться ее изменить
 public class Counter {
     private Object monitor = new Object();

@@ -1,4 +1,4 @@
-package DaemonThreadsAndRaceConditions;
+package daemonThreadsAndRaceConditions;
 
 public class Main {
     private static final int SIZE = 50_000_000;

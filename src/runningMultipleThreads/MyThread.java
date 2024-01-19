@@ -1,6 +1,6 @@
-package RunningMultipleThreads;
+package runningMultipleThreads;
 
-public class MyRunnable implements Runnable {
+public class MyThread extends Thread {
     @Override
     public void run() {
         for (int i = 0; i < 1000; i++) {

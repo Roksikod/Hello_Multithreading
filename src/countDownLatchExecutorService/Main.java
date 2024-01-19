@@ -1,6 +1,5 @@
-package CountDownLatchExecutorService;
+package countDownLatchExecutorService;
 
-import java.awt.*;
 import java.util.ArrayList;
 
 public class Main {

@@ -1,4 +1,4 @@
-package StopThreads;
+package stopThreads;
 
 /*Написать два метода: с использованием многопоточности и без):
 В методах:

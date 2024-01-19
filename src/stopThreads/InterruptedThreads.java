@@ -1,4 +1,4 @@
-package StopThreads;
+package stopThreads;
 
 public class InterruptedThreads {
     public static void main(String[] args) {

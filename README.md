@@ -11,3 +11,5 @@ Tasks and questions explored here:
 - BlockingQueue, Wait, notify и notifyAll
 - DeadLock
 - Thread-safe collections
+- Semaphore, CyclicBarrier
+
